@@ -1,0 +1,10 @@
+/* Define CSS Variables for consistent design  colour1:rgb(7, 7, 41) Colour2: #202A44     */   
+:root {
+    --primary-bg: rgb(7, 7, 41); 
+    --accent-color: #B7410E;
+    --sub-accent-color: #FFFDD0;
+    /* Not working */
+    --text-color: #FFFDD0;
+    --card-bg: rgba(255, 255, 255, 0.02);
+    --hover-bg: rgba(255, 255, 255, 0.1);
+}
