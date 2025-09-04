@@ -3,10 +3,10 @@
 // Personal and site-wide data
 const siteData = {
     name: "Sunil Samuel",
-    jobTitle: "Sales Director",
+    jobTitle: "Senior Sales Director",
     exp: "",
     taglines: [
-        "I sell..."
+        "Pipeline to Profit"
     ],
     about: [
         "Results-driven Key Account Director with over 22 years of experience in enterprise sales, cloud transformation, and business growth. Expertise in managing and expanding high-value Fortune 500 accounts while driving adoption of multi cloud AI/ML solutions. Adept at navigating complex negotiations, C-suite engagement, and cross-functional collaboration to maximize revenue growth and market impact. Proven ability to scale digital transformation initiatives that align with the public cloud provider’s vision of data-driven, customer-centric solutions."
@@ -29,12 +29,12 @@ const experiences = [
             "Led high-value strategic partnerships with IBM, Kyndryl, EY driving a 120% increase in revenue through cloud transformation initiatives. Led the initiative to establish a strategic partnership with Google Cloud, achieving Sell, Service, and Build engagement status across North America, APAC, and India. Drove the establishment of a strategic partnership with SAP, attaining PE Sell, PE Service, Cloud Choice Flex, and Rise with SAP advanced competency (Silver Partner status) across North America. Secured a $5M enterprise ERP migration, managed cloud & application managed services deal with a 40% profit margin, utilizing  Cloud solutions to enhance automation and operational efficiency. Built and managed a $40M+ sales pipeline, focusing on lift & shift Cloud migration, cybersecurity, and digital transformation. Developed go-to-market strategies that optimized Google Cloud AI/ML investments for enterprise clients. Spearheaded multiple AI/ML projects from proof-of-concept to implementation, including an Intelligent Field Operations (IFO) solution, an AI-powered voice-prompted work order management system, an AI-driven procurement chatbot for real-time status tracking, and automated healthcare compliance checks, contributing to improved sales processes. Negotiated and closed multi-year contracts, increasing average deal size by 35% YoY.",
         
         tags: [
-            "✨ AWS Services",
-            "✨ AWS Bedrock",
-            "✨ AWS Lambda",
-            "✨ Python",
-            "✨ AWS Sagamaker",
-            "✨ AWS RDS"
+            "✨ Leadership",
+            "✨ Client Retention",
+            "✨ Digital Labor",
+            "✨ Client Acquisition",
+            "✨ Strategic Planning",
+            "✨ Complex Collaborative Sales"
         ]
     },
     {
@@ -45,9 +45,9 @@ const experiences = [
         description:
             "Achieved #1 ranking in services sales for two consecutive years (2018, 2019), exceeding quota by 198% and earning the President’s Award. Managed a $60M+ enterprise sales pipeline, integrating Google Cloud, AWS & Azure infrastructure solutions for Fortune 500 clients. Designed and implemented customized growth strategies to increase enterprise spending on Cloud Platforms. Partnered with cross-functional teams (engineering, marketing, and sales) to optimize Cloud AI-driven sales enablement tools.",
         tags: [
-            "✨ AWS",
-            "✨ Python",
-            "✨ Boto3"
+            "✨ Consultative Sales",
+            "✨ Managed Services",
+            "✨ SAP Application Services"
         ]
     },
     {
@@ -58,10 +58,10 @@ const experiences = [
         description:
             "Managed a $20M+ portfolio in cloud computing, cybersecurity, and network automation services, driving digital transformation. Increased recurring revenue by $1.3M through cybersecurity and IoT-managed services, aligning with enterprise security requirements. Designed hybrid cloud adoption frameworks leveraging Google Cloud, AWS, and on-premises solutions for global enterprises." ,
         tags: [
-            "✨ OLGA",
-            "✨ Orca Flex",
-            "✨ ANSYS",
-            "✨ Fusion 360",
+            "✨ Strategy",
+            "✨ M & A",
+            "✨ Small cell as a Service",
+            "✨ IOT",
         ]
     },
     {
@@ -72,9 +72,9 @@ const experiences = [
         description:
             "Ranked #2 in Managed Services Sales, achieving 277% of quota through cloud-first enterprise solutions. Expanded managed services sales pipeline to $8M, executing large-scale technology transformation projects. Led $60M+ in ITIL-based digital infrastructure initiatives, improving operational efficiency and business continuity.",
         tags: [
-            "✨ DS - SOLIDWORKS  ",
-            "✨ Ansys",
-            "✨ Fusion 360",
+            "✨ ITIL Framework  ",
+            "✨ ITSM",
+            "✨ NOC/SOC",
         ]
     },
 ];
