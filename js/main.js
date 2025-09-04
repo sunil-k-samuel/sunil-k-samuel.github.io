@@ -2,7 +2,7 @@ import {
   logAction, getUnfinishedTasks, getUnfinishedTaskCount
 } from "./logger.js";
 import {
-  renderExperiences, renderProjects, renderPublications, renderAwards, renderSkills, renderTimeline,
+  renderExperiences, renderProjects, renderPublications, renderAwards, renderSkills, renderTimeline, renderEngagements, renderMulticlouds,
   renderEducations, renderApp
 } from "./render/render.js";
 import { initTheme } from "./theme/theme.js";
@@ -34,6 +34,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const expContainer = document.getElementById("experienceContainer");
     const projContainer = document.getElementById("projectsContainer");
     const pubContainer = document.getElementById("publicationsContainer");
+    const engContainer = document.getElementById("engagementsContainer");
+    const mulContainer = document.getElementById("multicloudsContainer");
     const awaContainer = document.getElementById("awardsContainer");
     const skillsContainer = document.getElementById("skillsContainer");
     const eduContainer = document.getElementById("eduContainer");
@@ -48,6 +50,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const expSearchInput = document.getElementById("experienceSearch");
     const projSearchInput = document.getElementById("projectSearch");
     const pubSearchInput = document.getElementById("publicationSearch");
+    const engSearchInput = document.getElementById("engagementSearch");
+    const mulSearchInput = document.getElementById("multicloudSearch");
     const awaSearchInput = document.getElementById("awardSearch");
     const contentDiv = document.querySelector(".content");
     const matchCounter = document.getElementById("matchCounter");
@@ -67,6 +71,8 @@ document.addEventListener("DOMContentLoaded", () => {
     renderExperiences(expContainer, experiences);
     renderProjects(projContainer, projects);
     renderPublications(pubContainer, publications);
+    renderEngagements(engContainer, engagements);
+    renderMulticlouds(mulContainer, multiclouds);
     renderAwards(awaContainer, awards);
     renderEducations(eduContainer, educations);
     renderSkills(skills, skillsContainer);
@@ -88,8 +94,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Initialize features
     initBackToTop(backToTopContainer, backToTop, rightSection);
-    initCardSearch(expSearchInput, projSearchInput, pubSearchInput, awaSearchInput, experiences, 
-      projects, publications, awards, expContainer, projContainer, pubContainer, awaContainer);
+    initCardSearch(expSearchInput, projSearchInput, pubSearchInput, awaSearchInput, engSearchInput, mulSearchInput, experiences, 
+      projects, publications, awards, engagements, multiclouds, expContainer, projContainer, pubContainer, engContainer, mulContainer, awaContainer);
     initContentSearch(
       { searchContainer, searchIcon, searchBox, contentDiv, matchCounter });
     initNav(rightSection);

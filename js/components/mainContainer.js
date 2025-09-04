@@ -87,6 +87,30 @@ export function renderMainContent() {
     `;
     main.appendChild(eduSection);
 
+    //engagements Section
+    const engSection = document.createElement("section");
+    engSection.id = "section8";
+    engSection.className = "fade-in mb-10 p-3 border-t border-gray-300 mt-4";
+    engSection.innerHTML = `
+      <br>
+      <input type="text" id="engagementSearch" placeholder="Search engagements..." class
+      ="fancy-search mb-4" />
+      <div class="space-y-4 w-full" id="engagementsContainer"></div>
+    `;
+    main.appendChild(engSection);
+    
+    //multiclouds Section
+    const mulSection = document.createElement("section");
+    mulSection.id = "section9";
+    mulSection.className = "fade-in mb-10 p-3 border-t border-gray-300 mt-4";
+    mulSection.innerHTML = `
+      <br>
+      <input type="text" id="multicloudSearch" placeholder="Search multicloud runs..." class
+      ="fancy-search mb-4" />
+      <div class="space-y-4 w-full" id="multicloudsContainer"></div>
+    `;
+    main.appendChild(mulSection);    
+
     // Timeline Section
     const timelineSection = document.createElement("section");
     timelineSection.id = "sectionTimeline";

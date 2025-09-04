@@ -164,6 +164,14 @@ export function renderSidebar() {
                 text: "Education", section: "section7"
             },
             {
+                id: "btn-section8", icon: "fas fa-award",
+                text: "C-Level Engagement", section: "section8"
+            },
+            {
+                id: "btn-section9", icon: "fas fa-award",
+                text: "Multicloud Run", section: "section9"
+            },
+            {
                 id: "btn-sectionTimeline", icon: "fas fa-stream",
                 text: "Timeline", section: "sectionTimeline"
             },

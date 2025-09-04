@@ -344,6 +344,83 @@ const skills = [
     },
 ];
 
+// EXECUTIVE-LEVEL CLIENT ENGAGEMENT aka C-level Engagement
+const engagements = [
+    {
+        type: "engagement",
+        link:
+            "",
+        period: "",
+        title: "Drove inorganic growth strategy by establishing and managing C-suite relationships with key decision-makers (CEOs, CIOs, CMOs) at Fortune 500 and 1000 companies, generating a pipeline of $100M+ in acquisition targets.",
+        description:
+            "",
+        tags: [,
+        ]
+    },
+    {
+        type: "engagement",
+        link:
+            "",
+        period: "",
+        title: "Led high-value contract negotiations, increasing enterprise deal sizes by 35% YoY.",
+        description:
+            "",
+        tags: [,
+        ]
+    },
+    {
+        type: "engagement",
+        link:
+            "",
+        period: "",
+        title: "Presented at Google Cloud Summits, AI Conferences, and ERP Industry Events, positioning Google Cloud’s AI/ML solutions as key drivers for enterprise growth",
+        description:
+            "",
+        tags: [,
+        ]
+    },
+
+]
+
+// WHY Multicloud? aka multicloud 
+const multiclouds = [
+    {
+        type: "multicloud",
+        link:
+            "",
+        period: "",
+        title: "Proven success in driving multi-million-dollar cloud migrations of ERP solutions that align with Cloud Provider’s mission of delivering AI-powered, customer-centric digital transformation solutions.",
+        description:
+            "",
+        tags: [,
+        ]
+    },
+    {
+        type: "multicloud",
+        link:
+            "",
+        period: "",
+        title: "Expertise in optimizing Cloud investments to maximize ROI for enterprise clients.",
+        description:
+            "",
+        tags: [,
+        ]
+    },
+    {
+        type: "multicloud",
+        link:
+            "",
+        period: "",
+        title: "Passion for innovation, data-driven strategies, and helping businesses scale through technology and automation.",
+        description:
+            "",
+        tags: [,
+        ]
+    },
+
+]
+
+
 // New Timeline Data (for Timeline feature)
 const timelineData = [
     {

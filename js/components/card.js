@@ -1,4 +1,4 @@
-import { renderExperiences, renderProjects, renderPublications, renderAwards} from "../render/render.js";
+import { renderExperiences, renderProjects, renderPublications, renderAwards, renderEngagements, renderMulticlouds} from "../render/render.js";
 import {
   logAction
 } from "../logger.js";
@@ -66,8 +66,8 @@ export function createCard(item) {
 }
 
 
-export function initCardSearch(expSearchInput, projSearchInput, pubSearchInput, awaSearchInput, experiences, 
-  projects, publications, awards, expContainer, projContainer, pubContainer, awaContainer) {
+export function initCardSearch(expSearchInput, projSearchInput, pubSearchInput, awaSearchInput, engSearchInput, mulSearchInput, experiences, 
+  projects, publications, awards, engagements, multiclouds, expContainer, projContainer, pubContainer, engContainer, mulContainer, awaContainer) {
   logAction(`${initCardSearch.name}()`, () => {
     
     // Experience card filtering
@@ -124,6 +124,32 @@ export function initCardSearch(expSearchInput, projSearchInput, pubSearchInput, 
       // Call render function with the container and filtered data
       renderAwards(awaContainer, filteredAwards);
     });
+
+    //engagements card filtering
+    engSearchInput.addEventListener("input", function (e) {
+      const query = e.target.value.toLowerCase();
+      const filteredEngagements = engagements.filter(eng =>
+        eng.title.toLowerCase().includes(query) ||
+        eng.description.toLowerCase().includes(query) ||
+        (eng.tags && eng.tags.some(
+          tag => tag.toLowerCase().includes(query)))
+      );
+      // Call render function with the container and filtered data
+      renderEngagements(engContainer, filteredEngagements);
+    });
     
+    //multiclouds card filtering
+    mulSearchInput.addEventListener("input", function (e) {
+      const query = e.target.value.toLowerCase();
+      const filteredMulticlouds = multiclouds.filter(mul =>
+        mul.title.toLowerCase().includes(query) ||
+        mul.description.toLowerCase().includes(query) ||
+        (mul.tags && mul.tags.some(
+          tag => tag.toLowerCase().includes(query)))
+      );
+      // Call render function with the container and filtered data
+      renderMulticlouds(mulContainer, filteredMulticlouds);
+    });
+
   });
 }

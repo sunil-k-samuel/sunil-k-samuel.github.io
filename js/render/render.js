@@ -63,6 +63,24 @@ export function renderSkills(skills, container) {
     });
 }
 
+export function renderEngagements(container, data) {
+    logAction(`${renderEngagements.name}()`, () => {
+        container.innerHTML = "";
+        data.forEach(item => {
+            container.insertAdjacentHTML("beforeend", createCard(item));
+        });
+    });
+}
+
+export function renderMulticlouds(container, data) {
+    logAction(`${renderMulticlouds.name}()`, () => {
+        container.innerHTML = "";
+        data.forEach(item => {
+            container.insertAdjacentHTML("beforeend", createCard(item));
+        });
+    });
+}
+
 export function renderTimeline(container, timelineData) {
     logAction(`${renderTimeline.name}()`, () => {
         initTimeline(container, timelineData);
