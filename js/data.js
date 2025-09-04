@@ -206,7 +206,7 @@ const publications = [
         period: "2024",
         title: "Partner Alliance Leader Award for driving cloud adoption at Fortune 500 firms",
         description:
-            "",
+            "CEO’s Award Recipient",
         tags: [
         ]
     },
@@ -217,7 +217,7 @@ const publications = [
         period: "2018 & 2019",
         title: "Ranked #1 Services Sales, President’s Award Winner",
         description:
-            "",
+            "CEO’s Award Recipient",
         tags: [
         ]
     },
@@ -228,7 +228,7 @@ const publications = [
         period: "2012",
         title: "Ranked #2 in Managed Services Sales at NEC with 277% performance ",
         description:
-            "",
+            "CEO’s Award Recipient",
         tags: [
         ]
     }
