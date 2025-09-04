@@ -184,7 +184,7 @@ export function renderSidebar() {
         resumeLink.id = "btn-resume";
         resumeLink.href = "resume.pdf";
         resumeLink.target = "_blank";
-        resumeLink.setAttribute("aria-label", "Resume");
+        resumeLink.setAttribute("aria-label", "resume");
         resumeLink.setAttribute("title", "View Resume");
         resumeLink.innerHTML = `<i class="fas fa-file-alt"></i> Resume`;
         nav.appendChild(resumeLink);
@@ -200,16 +200,16 @@ export function renderSidebar() {
         coverletterLink.innerHTML = `<i class="fas fa-file-alt"></i> Cover letter`;
         nav.appendChild(coverletterLink);
 
-        // References Link
-        const ReferenceLink = document.createElement("a");
-        ReferenceLink.className = "nav-button";
-        ReferenceLink.id = "btn-Reference";
-        ReferenceLink.href = "Reference.pdf";
-        ReferenceLink.target = "_blank";
-        ReferenceLink.setAttribute("aria-label", "ReferenceLink");
-        ReferenceLink.setAttribute("title", "View ReferenceLink");
-        ReferenceLink.innerHTML = `<i class="fas fa-file-alt"></i> References`;
-        nav.appendChild(ReferenceLink);
+        // Recommendations Link
+        const RecommendationsLink = document.createElement("a");
+        RecommendationsLink.className = "nav-button";
+        RecommendationsLink.id = "btn-Recommendations";
+        RecommendationsLink.href = "recommendations.pdf";
+        RecommendationsLink.target = "_blank";
+        RecommendationsLink.setAttribute("aria-label", "RecommendationsLink");
+        RecommendationsLink.setAttribute("title", "View RecommendationsLink");
+        RecommendationsLink.innerHTML = `<i class="fas fa-file-alt"></i> Recommendations`;
+        nav.appendChild(RecommendationsLink);
 
         aside.appendChild(nav);
 
