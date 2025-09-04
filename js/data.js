@@ -34,7 +34,11 @@ const experiences = [
             "✨ Digital Labor",
             "✨ Client Acquisition",
             "✨ Strategic Planning",
-            "✨ Complex Collaborative Sales"
+            "✨ Complex Collaborative Sales",
+            "✨ SAP-Partnership",
+            "✨ SAP-Managed Services",
+            "✨ SAP-Applications Managed Services",
+            "✨ Multi-Cloud Services"
         ]
     },
     {
@@ -47,7 +51,7 @@ const experiences = [
         tags: [
             "✨ Consultative Sales",
             "✨ Managed Services",
-            "✨ SAP Application Services"
+            "✨ Managed Security Services"
         ]
     },
     {
@@ -62,6 +66,7 @@ const experiences = [
             "✨ M & A",
             "✨ Small cell as a Service",
             "✨ IOT",
+            "✨ Cyber Security Services"
         ]
     },
     {
@@ -74,7 +79,7 @@ const experiences = [
         tags: [
             "✨ ITIL Framework  ",
             "✨ ITSM",
-            "✨ NOC/SOC",
+            "✨ NOC/SOC Services",
         ]
     },
 ];
