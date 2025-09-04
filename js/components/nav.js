@@ -154,22 +154,22 @@ export function renderSidebar() {
             {
                 id: "btn-section5", icon: "fas fa-tools",
                 text: "Core Competencies", section: "section5"
-            },                  
-            {
-                id: "btn-section6", icon: "fas fa-chart-bar",
-                text: "Technical Skills", section: "section6"
             },
             {
-                id: "btn-section7", icon: "fas fa-graduation-cap",
-                text: "Education", section: "section7"
+                id: "btn-section6", icon: "fas fa-award",
+                text: "C-Level Engagement", section: "section6"
             },
             {
-                id: "btn-section8", icon: "fas fa-award",
-                text: "C-Level Engagement", section: "section8"
+                id: "btn-section7", icon: "fas fa-award",
+                text: "Multicloud Runs", section: "section7"
+            },                    
+            {
+                id: "btn-section8", icon: "fas fa-chart-bar",
+                text: "Technical Skills", section: "section8"
             },
             {
-                id: "btn-section9", icon: "fas fa-award",
-                text: "Multicloud Run", section: "section9"
+                id: "btn-section9", icon: "fas fa-graduation-cap",
+                text: "Education", section: "section9"
             },
             {
                 id: "btn-sectionTimeline", icon: "fas fa-stream",

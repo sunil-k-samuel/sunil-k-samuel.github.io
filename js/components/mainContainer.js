@@ -66,30 +66,10 @@ export function renderMainContent() {
       <div class="space-y-4 w-full" id="projectsContainer"></div>
     `;
     main.appendChild(projSection);
-    
-    // Skills Section
-    const skillsSection = document.createElement("section");
-    skillsSection.id = "section6";
-    skillsSection.className = "fade-in mb-10 p-3 border-t border-gray-300 mt-4";
-    skillsSection.innerHTML = `
-      <br>
-      <div class="space-y-4 w-full" id="skillsContainer"></div>
-    `;
-    main.appendChild(skillsSection);
-
-    // Education Section
-    const eduSection = document.createElement("section");
-    eduSection.id = "section7";
-    eduSection.className = "fade-in mb-10 p-3 border-t border-gray-300 mt-4";
-    eduSection.innerHTML = `
-      <br>
-      <div class="space-y-4 w-full" id="eduContainer"></div>
-    `;
-    main.appendChild(eduSection);
 
     //engagements Section
     const engSection = document.createElement("section");
-    engSection.id = "section8";
+    engSection.id = "section6";
     engSection.className = "fade-in mb-10 p-3 border-t border-gray-300 mt-4";
     engSection.innerHTML = `
       <br>
@@ -101,7 +81,7 @@ export function renderMainContent() {
     
     //multiclouds Section
     const mulSection = document.createElement("section");
-    mulSection.id = "section9";
+    mulSection.id = "section7";
     mulSection.className = "fade-in mb-10 p-3 border-t border-gray-300 mt-4";
     mulSection.innerHTML = `
       <br>
@@ -109,7 +89,27 @@ export function renderMainContent() {
       ="fancy-search mb-4" />
       <div class="space-y-4 w-full" id="multicloudsContainer"></div>
     `;
-    main.appendChild(mulSection);    
+    main.appendChild(mulSection);        
+    
+    // Skills Section
+    const skillsSection = document.createElement("section");
+    skillsSection.id = "section8";
+    skillsSection.className = "fade-in mb-10 p-3 border-t border-gray-300 mt-4";
+    skillsSection.innerHTML = `
+      <br>
+      <div class="space-y-4 w-full" id="skillsContainer"></div>
+    `;
+    main.appendChild(skillsSection);
+
+    // Education Section
+    const eduSection = document.createElement("section");
+    eduSection.id = "section9";
+    eduSection.className = "fade-in mb-10 p-3 border-t border-gray-300 mt-4";
+    eduSection.innerHTML = `
+      <br>
+      <div class="space-y-4 w-full" id="eduContainer"></div>
+    `;
+    main.appendChild(eduSection);
 
     // Timeline Section
     const timelineSection = document.createElement("section");
