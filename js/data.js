@@ -239,8 +239,8 @@ const awards = [
         type: "award",
         link:
             "",
-        period: "July 2025 - Sept 2025",
-        title: "Google Cloud Sales Fundamentals Certified",
+        period: "Jan 2025",
+        title: "Exploring SAP Cloud ERP - Record of Achievement",
         description:
             "",
         tags: [
@@ -250,8 +250,8 @@ const awards = [
         type: "award",
         link:
             "",
-        period: "July 2025 - Sept 2025",
-        title: "SAP Credentials (Business Strategy, Cloud Migration, Business.AI-Joule)",
+        period: "Dec 2024",
+        title: "Introducing SAP Business AI for SAP Digital Supply Chain - Record of Achievement",
         description:
             "",
         tags: [
@@ -261,8 +261,8 @@ const awards = [
         type: "award",
         link:
             "",
-        period: "July 2025 - Sept 2025",
-        title: "SAP Sales Competency Credentials (Rise with SAP, Grow with SAP & BTP)",
+        period: "Dec 2024",
+        title: "Positioning GROW with SAP for Partners - Record of Achievement",
         description:
             "",
         tags: [
@@ -272,7 +272,117 @@ const awards = [
         type: "award",
         link:
             "",
-        period: "July 2025 - Sept 2025",
+        period: "Dec 2024",
+        title: "Positioning RISE with SAP for Partners - Record of Achievement SAP",
+        description:
+            "",
+        tags: [
+        ]
+    },
+    {
+        type: "award",
+        link:
+            "",
+        period: "Dec 2024",
+        title: "Positioning the SAP Business Technology Platform for Partners - Record of Achievement SAP",
+        description:
+            "",
+        tags: [
+        ]
+    },
+    {
+        type: "award",
+        link:
+            "",
+        period: "Oct 2024",
+        title: "Sharpening Your Discovery and Demonstration Presales Skills - Record of Achievement SAP",
+        description:
+            "",
+        tags: [
+        ]
+    },
+    {
+        type: "award",
+        link:
+            "",
+        period: "Aug 2024",
+        title: "Getting started with SAP Franchise Sales Methodology - selling4success - Record of Achievement",
+        description:
+            "",
+        tags: [
+        ]
+    },
+    {
+        type: "award",
+        link:
+            "",
+        period: "Aug 2024",
+        title: "Introducing SAP's Business AI strategy and Partner Opportunity - Record of Achievement SAP",
+        description:
+            "",
+        tags: [
+        ]
+    },
+    {
+        type: "award",
+        link:
+            "",
+        period: "Aug 2024",
+        title: "Introducing SAP's Cloud Strategy - Record of Achievement",
+        description:
+            "",
+        tags: [
+        ]
+    },
+    {
+        type: "award",
+        link:
+            "",
+        period: "Sept 2023",
+        title: "Generative AI for Business Leaders",
+        description:
+            "",
+        tags: [
+        ]
+    },
+    {
+        type: "award",
+        link:
+            "",
+        period: "Sept 2023",
+        title: "Prompt Engineering: How to talk to the AIs ",
+        description:
+            "",
+        tags: [
+        ]
+    },
+    {
+        type: "award",
+        link:
+            "",
+        period: "Jul 2022",
+        title: "DocuSign eSignature Implementation Consultant",
+        description:
+            "",
+        tags: [
+        ]
+    },
+    {
+        type: "award",
+        link:
+            "",
+        period: "Jun 2021",
+        title: "AWS Partner: Accreditation (Business)",
+        description:
+            "",
+        tags: [
+        ]
+    },
+    {
+        type: "award",
+        link:
+            "",
+        period: "Jun 2021",
         title: "AWS Business Professional Certified",
         description:
             "",
@@ -283,8 +393,8 @@ const awards = [
         type: "award",
         link:
             "",
-        period: "July 2025 - Sept 2025",
-        title: "ITIL V3 Foundation Certified",
+        period: "Feb 2021",
+        title: "Google Cloud Sales Credential",
         description:
             "",
         tags: [
@@ -294,8 +404,52 @@ const awards = [
         type: "award",
         link:
             "",
-        period: "July 2025 - Sept 2025",
+        period: "Mar 2021",
+        title: "Google Cloud Sales Fundamentals Certified",
+        description:
+            "",
+        tags: [
+        ]
+    },
+    {
+        type: "award",
+        link:
+            "",
+        period: "Jan 2021",
+        title: "Oracle Cloud Infrastructure (OCI) Foundations 2021 Associate",
+        description:
+            "",
+        tags: [
+        ]
+    },
+    {
+        type: "award",
+        link:
+            "",
+        period: "Dec 2014",
+        title: "IT Service Management - Graduate Certificate Program",
+        description:
+            "",
+        tags: [
+        ]
+    },
+    {
+        type: "award",
+        link:
+            "",
+        period: "Aug 2012",
         title: "Cisco Sales Expert (CSE Certified)",
+        description:
+            "",
+        tags: [
+        ]
+    },
+    {
+        type: "award",
+        link:
+            "",
+        period: "Nov 2010",
+        title: "ITIL V3 Foundation Certified ",
         description:
             "",
         tags: [
