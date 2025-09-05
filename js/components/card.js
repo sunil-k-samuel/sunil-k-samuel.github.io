@@ -36,7 +36,7 @@ function renderDetailedCard(item) {
         </div>
       ` : ""}
       <div class="flex flex-col md:flex-row gap-1 items-start md:items-center">
-        <div class="text-gray-300 font-semibold w-full md:w-1/4">
+        <div class="text-gray-300 font-semibold w-full md:w-1/4 flex items-center justify-center text-center">
           ${item.period || ""}
         </div>
         <div class="w-full md:w-3/4">
